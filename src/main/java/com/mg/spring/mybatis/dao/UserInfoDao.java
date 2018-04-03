@@ -1,6 +1,6 @@
-package com.dlz.spring.mybatis.dao;
+package com.mg.spring.mybatis.dao;
 
-import com.dlz.spring.mybatis.entity.UserInfo;
+import com.mg.spring.mybatis.entity.UserInfo;
 import org.mybatis.spring.annotation.MapperScan;
 
 /**

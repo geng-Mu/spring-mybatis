@@ -1,8 +1,8 @@
-package com.dlz.spring.mybatis.service.impl;
+package com.mg.spring.mybatis.service.impl;
 
-import com.dlz.spring.mybatis.dao.UserInfoDao;
-import com.dlz.spring.mybatis.entity.UserInfo;
-import com.dlz.spring.mybatis.service.UserInfoService;
+import com.mg.spring.mybatis.dao.UserInfoDao;
+import com.mg.spring.mybatis.entity.UserInfo;
+import com.mg.spring.mybatis.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

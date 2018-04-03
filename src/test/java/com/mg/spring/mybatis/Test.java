@@ -1,10 +1,7 @@
-package com.dlz.spring.mybatis;
+package com.mg.spring.mybatis;
 
-import com.dlz.spring.mybatis.dao.UserInfoDao;
-import com.dlz.spring.mybatis.entity.UserInfo;
-import com.dlz.spring.mybatis.service.UserInfoService;
-import com.dlz.spring.mybatis.service.impl.UserInfoServiceImpl;
-import org.springframework.context.ApplicationContext;
+import com.mg.spring.mybatis.dao.UserInfoDao;
+import com.mg.spring.mybatis.entity.UserInfo;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
@@ -13,7 +10,7 @@ public class Test {
         applicationContext.start();
         UserInfoDao userInfoDao = (UserInfoDao) applicationContext.getBean("userInfoDao");
         UserInfo userInfo = new UserInfo();
-        userInfo.setName("网联");
+        userInfo.setName("测试");
         userInfoDao.insertUser(userInfo);
         System.out.println(userInfo.toString());
     }

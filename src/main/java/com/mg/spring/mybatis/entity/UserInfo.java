@@ -1,4 +1,4 @@
-package com.dlz.spring.mybatis.entity;
+package com.mg.spring.mybatis.entity;
 
 public class UserInfo {
     private Integer id;
