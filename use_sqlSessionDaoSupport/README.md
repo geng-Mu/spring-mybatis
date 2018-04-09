@@ -1,0 +1,2 @@
+#use_sqlSessionDaoSupport
+采用抽象类org.mybatis.spring.support.SqlSessionDaoSupport提供SqlSession。

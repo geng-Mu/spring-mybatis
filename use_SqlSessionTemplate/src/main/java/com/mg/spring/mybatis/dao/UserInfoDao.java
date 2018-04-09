@@ -16,7 +16,6 @@ public class UserInfoDao {
 
     /**
      * 新 增方法
-     * 此处的方法名必须和mapper中的映射文件中的id同名
      * 回去映射文件中通过com.dlz.spring.mybatis.dao.UserDao.getUser,即this.getClass().getName()+".insertUser"
      *
      * @param userInfo

@@ -11,6 +11,7 @@
     <modules>
         <module>use_mapperScannerConfiger</module>
         <module>use_SqlSessionTemplate</module>
+        <module>use_sqlSessionDaoSupport</module>
     </modules>
 
     <dependencies>

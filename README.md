@@ -1,4 +1,6 @@
 # spring-mybatis
 练习使用spring整合mybatis
 本文是自己学习spring整合mybatis的一个简单demo,仅供参考
-1.使用MapperScannerConfigurer,它将会查找类路径下的映射器并自动将它们创建成MapperFactoryBean
+1.使用MapperScannerConfigurer,它将会查找类路径下的映射器并自动将它们创建成MapperFactoryBean;
+2.采用抽象类org.mybatis.spring.support.SqlSessionDaoSupport提供SqlSession;
+3.采用接口org.apache.ibatis.session.SqlSession的实现类org.mybatis.spring.SqlSessionTemplate.
