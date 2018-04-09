@@ -1,0 +1,3 @@
+# use_mapperScannerConfiger
+练习使用spring整合mybatis
+使用MapperScannerConfigurer,它将会查找类路径下的映射器并自动将它们创建成MapperFactoryBean
